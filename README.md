@@ -22,7 +22,7 @@ Labelme2YOLO/
 src/
 ```
 
-- deep sort: deep sort 알고리즘을 적용한 오픈소스(https://github.com/AarohiSingla/Tracking-and-counting-Using-YOLOv8-and-DeepSORT)를 가져와서 사용했습니다.
+- deep sort: deep sort 알고리즘을 적용한 오픈소스(https://github.com/AarohiSingla/Tracking-and-counting-Using-YOLOv8-and-DeepSORT) 를 가져와서 사용했습니다.
 - Labelme2YOLO([https://github.com/rooneysh/Labelme2YOLO](https://github.com/rooneysh/Labelme2YOLO)) 라이브러리 커스텀해서 사용했습니다.
     - 기존 데이터셋에서 rectangle(detect)과 polygon(segmentation) 분리용
     - 짝이 맞지 않는 경우가 많아 4개의 포인트만 추출했습니다.
